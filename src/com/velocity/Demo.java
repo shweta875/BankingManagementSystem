@@ -8,7 +8,9 @@ public class Demo {
 		l.add(1);
 		l.add(2);
 		l.add(3);
-		System.out.println(l);
+		for(Object x:l) {
+			System.out.println(x);
+		}
 	}
 
 }
