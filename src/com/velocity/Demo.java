@@ -13,6 +13,9 @@ public class Demo {
 			System.out.println(x);
 		}
 		Collections.sort(l);
+		
+           Object o=l.remove(2);  //return object which we want to remove
+		System.out.println(l);
 	}
 
 }
